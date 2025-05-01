@@ -23,7 +23,7 @@ class BudgetController extends Controller
     public function index()
     {
         
-        $CurrentB = Budget::all()->where('Added_by', "=", auth()->user()->id)->where("Status","=","Planning")->sortBy('Amount');
+        $CurrentB = Budget::all()->where('Added_by', "=", auth()->user()->id)->where("Status","=","Planning")->sortBy('due_date');
 
 
 
