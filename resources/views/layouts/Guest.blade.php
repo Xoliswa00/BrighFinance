@@ -23,14 +23,22 @@
 <body>
 
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <a class="navbar-brand" href="/">
-                <img src="assets/images/Bright v4.png" alt="Bright Finance" style="height: 50px;">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <nav class="navbar navbar-expand-lg bg-gradient-info border-radius-lg shadow-dark mt-4 py-2">
+  <div class="container-fluid py-1 px-3 d-flex justify-content-between align-items-center">
+
+    <!-- Logo -->
+    <a href="/" class="navbar-brand d-flex align-items-center">
+      <img src="assets/images/Bright v4.png" alt="Bright Finance" style="height: 4.3rem;">
+    </a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler text-success ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon">
+        <span class="navbar-toggler-bar bar1"></span>
+        <span class="navbar-toggler-bar bar2"></span>
+        <span class="navbar-toggler-bar bar3"></span>
+      </span>
+    </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     @guest
@@ -41,10 +49,10 @@
                             <a class="nav-link" href="/features">Features</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/about">About</a>
+                            <a class="nav-link" href="/About">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/contact">Contact</a>
+                            <a class="nav-link" href="/Contact">Contact</a>
                         </li>
                         @if (Route::has('login'))
                             <li class="nav-item">

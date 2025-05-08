@@ -1,4 +1,4 @@
-@extends('layouts.Guest')
+@extends('layouts.app')
 
 @section('content')
 <section data-bs-version="5.1" class="content4 cid-tFrFcZnMX9" id="content4-9">
@@ -29,77 +29,5 @@
     </div>
 </section>
 
-<section data-bs-version="5.1" class="clients2 cid-tFrVeMMSEZ" id="clients2-h">
-
-    
-
-    
-    
-    <div class="container-fluid">
-        <div class="row justify-content-center">
-            <div class="card col-12 col-md-6 col-lg-4">
-                <div class="card-wrapper">
-                    <div class="img-wrapper">
-                        <img src="assets/images/1.png" alt="Mobirise Website Builder">
-                    </div>
-                    <div class="card-box align-center">
-                        <h6 class="card-subtitle mbr-fonts-style mb-0 display-4">
-                         Our Clients
-                        </h6>
-                        <h5 class="card-title mbr-fonts-style mb-3 display-5">
-                            <strong>Our partner</strong>
-                        </h5>
-                        <p class="mbr-text mbr-fonts-style mb-4 display-4">
-                            No special actions required, all sites you make with Mobirise are mobile-friendly.</p>
-                        <div class="mbr-section-btn mt-3">
-                            <a class="btn btn-primary-outline display-4" href="#">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card col-12 col-md-6 col-lg-4">
-                <div class="card-wrapper">
-                    <div class="img-wrapper">
-                        <img src="assets/images/1.png" alt="Mobirise Website Builder">
-                    </div>
-                    <div class="card-box align-center">
-                        <h6 class="card-subtitle mbr-fonts-style mb-0 display-4">
-                            Our Clients
-                        </h6>
-                        <h5 class="card-title mbr-fonts-style mb-3 display-5">
-                            <strong>Our partner</strong>
-                        </h5>
-                        <p class="mbr-text mbr-fonts-style mb-4 display-4">
-                            Use Mobirise website building software to create multiple sites for your clients.</p>
-                        <div class="mbr-section-btn mt-3">
-                            <a class="btn btn-primary-outline display-4" href="#">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card col-12 col-md-6 col-lg-4">
-                <div class="card-wrapper">
-                    <div class="img-wrapper">
-                        <img src="assets/images/1.png" alt="Mobirise Website Builder">
-                    </div>
-                    <div class="card-box align-center">
-                        <h6 class="card-subtitle mbr-fonts-style mb-0 display-4">
-                            Our Clients
-                        </h6>
-                        <h5 class="card-title mbr-fonts-style mb-3 display-5">
-                            <strong>Our partner</strong>
-                        </h5>
-                        <p class="mbr-text mbr-fonts-style mb-4 display-4">
-                            Create multiple pages. Don't forget to set links to your pages after creating them.</p>
-                        <div class="mbr-section-btn mt-3">
-                            <a class="btn btn-primary-outline display-4" href="https://mobiri.se">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-    </div>
-</section>
 
 @endsection

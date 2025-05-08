@@ -1,50 +1,47 @@
-@extends('layouts.Guest')
+@extends('layouts.app')
 
 @section('content')
-  <section data-bs-version="5.1" class="contacts1 cid-tFrNWP4BYh" id="contacts1-c">
-
-    
-
-    
-    
-    <div class="container ">
-        <div class="mbr-section-head">
-            <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-                <strong>Contacts</strong>
-            </h3>
-            
+<section data-bs-version="5.1" class="contacts1 cid-tFrNWP4BYh py-5" id="contacts1-c">
+    <div class="container">
+        <div class="mbr-section-head text-center mb-5">
+            <h2 class="mbr-section-title display-4 fw-bold text-primary">
+                <strong>Get in Touch</strong>
+            </h2>
+            <p class="text-muted mt-2">We’d love to hear from you — reach out anytime.</p>
         </div>
-        <div class="row justify-content-center mt-4">
-            <div class="card col-12 col-lg-6 shadow-card">
-                <div class="card-wrapper">
-                    <div class="card-box align-center">
-                        <div class="image-wrapper">
-                            <span class="mbr-iconfont mobi-mbri-letter mobi-mbri"></span>
+
+        <div class="row g-4 justify-content-center">
+            <!-- Email Card -->
+            <div class="col-12 col-lg-5">
+                <div class="card h-100 shadow-lg border-0">
+                    <div class="card-body text-center py-4">
+                        <div class="mb-3">
+                            <span class="mbr-iconfont mobi-mbri-letter mobi-mbri fs-1 text-primary"></span>
                         </div>
-                        <h4 class="card-title mbr-fonts-style mb-2 display-2">
-                            <strong>Email</strong>
-                        </h4>
-                        <p class="mbr-text mbr-fonts-style mb-2 display-4">
-                            We will reply as soon as possible</p>
-                        <h5 class="link mbr-fonts-style display-7"><a href="mailto:bester12@outlook.com" class="text-primary">Send us an
-                                email</a>
-                        </h5>
+                        <h4 class="mb-2 fw-bold">Email Us</h4>
+                        <p class="text-muted">We usually respond within a few hours during working days.</p>
+                        <a href="mailto:bester12@outlook.com" class="btn btn-outline-primary mt-3">
+                            Send an Email
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="card col-12 col-lg-6 shadow-lg">
-                <div class="card-wrapper">
-                    <div class="card-box align-center">
-                        <div class="image-wrapper">
-                            <span class="mbr-iconfont mobi-mbri-mobile-2 mobi-mbri"></span>
+
+            <!-- Phone/WhatsApp Card -->
+            <div class="col-12 col-lg-5">
+                <div class="card h-100 shadow-lg border-0">
+                    <div class="card-body text-center py-4">
+                        <div class="mb-3">
+                            <span class="mbr-iconfont mobi-mbri-mobile-2 mobi-mbri fs-1 text-primary"></span>
                         </div>
-                        <h4 class="card-title mbr-fonts-style align-center mb-2 display-2">
-                            <strong>Phone</strong>
-                        </h4>
-                        <p class="mbr-text mbr-fonts-style mb-2 display-4">
-                            Mon - Fri 09:00 - 18:00</p>
-                        <h5 class="link mbr-black mbr-fonts-style display-7">
-                            <a href="https://wa.me/0606861764" class="text-primary">Call&nbsp;</a><a href="tel:0606861764" class="text-primary">(060) 6861- 764</a></h5>
+                        <h4 class="mb-2 fw-bold">Call or WhatsApp</h4>
+                        <p class="text-muted">Available Mon - Fri · 09:00 to 18:00</p>
+                        <div class="d-flex flex-column gap-2">
+                            <a href="tel:0606861764" class="btn btn-outline-primary">Call: (060) 6861-764</a>
+                            <a href="https://wa.me/27606861764" target="_blank" class="btn btn-primary">
+                                Chat on WhatsApp
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

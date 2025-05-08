@@ -1,28 +1,53 @@
-@extends('layouts.Guest')
+@extends('layouts.app')
 
 @section('content')
-    
-    <section data-bs-version="5.1" class="header2 cid-tFjzdWY4mW mbr-fullscreen mbr-parallax-background" id="header2-2">
+<section 
+    data-bs-version="5.1" 
+    class="header2 cid-tFjzdWY4mW mbr-fullscreen mbr-parallax-background d-flex align-items-center" 
+    id="header2-2"
+>
+    <div class="mbr-overlay position-absolute top-0 start-0 w-100 h-100" style="opacity: 0; z-index: -1;"></div>
 
-            
+    <div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-10 col-lg-8">
+        <div class="card shadow-lg rounded-4 p-5 text-center" >
+    <div class="card-body">
+        <h1 class="display-5 fw-bold mb-4 text-white">
+           Bring Brightness to Your Finances
+        </h1>
 
-            
-         <div class="mbr-overlay" style="opacity: 0; background-color: rgb(255, 255, 255);"></div>
+        <p class="lead mb-3">
+             Learn more about your finances
+        </p>
 
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-lg-12">
-                        <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1"><strong>Bring Brightness to your Finances</strong></h1>
-                        <p class="mbr-text mbr-fonts-style display-7">In a world filled with financial challenges and uncertainties, managing personal finances can often feel overwhelming. 
-                            <br>
-                            Many individuals struggle to keep track of their income, expenses, and long-term financial goals.</p>
-                        <p class="mbr-text mbr-fonts-style display-7">Take charge of your finances and embark on a journey towards financial success.
-                        <br>Start your financial adventure today and experience the power of having a dedicated companion that empowers you on your path to financial freedom.
-                        <br>
-                            <br></p>
-                        <div class="mbr-section-btn mt-3"><a class="btn btn-primary display-4"  href="{{ route('register') }}">{{ __('Sign Up Today!') }}</a></div>
-                    </div>
-                </div>
-            </div>
-    </section>
+        <p>
+            Join a growing community taking control of their income, expenses, and financial goals. Our platform is your smart, simple companion on the path to financial clarity and success.
+        </p>
+
+        <p class="mt-4 fw-semibold text-dark">
+            💡 Why this app ?:
+        </p>
+        <p class="text-white small">
+            Bright Finance helps you track income and expenses, set savings goals, analyze spending patterns, and stay on top of your financial health — all in one simple dashboard.
+        </p>
+
+        <div class="d-grid gap-2 d-md-flex justify-content-md-center mt-4">
+            <a class="btn btn-primary btn-lg px-4 me-md-2" href="{{ route('register') }}">
+                {{ __('Sign Up Free') }}
+            </a>
+            <a class="btn btn-outline-secondary btn-lg px-4" href="{{ route('login') }}">
+                {{ __('Log In') }}
+            </a>
+        </div>
+
+       
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+</section>
 @endsection
